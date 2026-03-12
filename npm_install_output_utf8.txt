@@ -1,0 +1,210 @@
+npm : npm warn ERESOLVE 
+overriding peer dependency
+At line:1 char:1
++ npm install react 
+react-dom > 
+npm_install_output.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo         
+     : NotSpecified: (npm  
+   warn ERESOL...peer de   
+ pendency:String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+npm warn While resolving: 
+@react-leaflet/core@3.0.0
+npm warn Found: 
+react@18.3.1
+npm warn node_modules/react
+npm warn   peerOptional 
+react@"18.3.1" from the 
+root project
+npm warn   84 more 
+(@emotion/react, 
+@emotion/styled, ...)
+npm warn
+npm warn Could not resolve 
+dependency:
+npm warn peer 
+react@"^19.0.0" from 
+@react-leaflet/core@3.0.0
+npm warn node_modules/@reac
+t-leaflet/core
+npm warn   @react-leaflet/c
+ore@"^3.0.0" from 
+react-leaflet@5.0.0
+npm warn   
+node_modules/react-leaflet
+npm warn
+npm warn Conflicting peer 
+dependency: react@19.2.4
+npm warn node_modules/react
+npm warn   peer 
+react@"^19.0.0" from 
+@react-leaflet/core@3.0.0
+npm warn   node_modules/@re
+act-leaflet/core
+npm warn     @react-leaflet
+/core@"^3.0.0" from 
+react-leaflet@5.0.0
+npm warn     
+node_modules/react-leaflet
+npm warn ERESOLVE 
+overriding peer dependency
+npm warn While resolving: 
+@react-leaflet/core@3.0.0
+npm warn Found: 
+react-dom@18.3.1
+npm warn 
+node_modules/react-dom
+npm warn   peerOptional 
+react-dom@"18.3.1" from 
+the root project
+npm warn   52 more 
+(@floating-ui/react-dom, 
+@mui/material, ...)
+npm warn
+npm warn Could not resolve 
+dependency:
+npm warn peer 
+react-dom@"^19.0.0" from 
+@react-leaflet/core@3.0.0
+npm warn node_modules/@reac
+t-leaflet/core
+npm warn   @react-leaflet/c
+ore@"^3.0.0" from 
+react-leaflet@5.0.0
+npm warn   
+node_modules/react-leaflet
+npm warn
+npm warn Conflicting peer 
+dependency: 
+react-dom@19.2.4
+npm warn 
+node_modules/react-dom
+npm warn   peer 
+react-dom@"^19.0.0" from 
+@react-leaflet/core@3.0.0
+npm warn   node_modules/@re
+act-leaflet/core
+npm warn     @react-leaflet
+/core@"^3.0.0" from 
+react-leaflet@5.0.0
+npm warn     
+node_modules/react-leaflet
+npm error code ERESOLVE
+npm error ERESOLVE could 
+not resolve
+npm error
+npm error While resolving: 
+react-leaflet@5.0.0
+npm error Found: 
+react@18.3.1
+npm error 
+node_modules/react
+npm error   peerOptional 
+react@"18.3.1" from the 
+root project
+npm error   peer 
+react@">=16.8.0" from 
+@emotion/react@11.14.0
+npm error   
+node_modules/@emotion/react
+npm error     peer @emotion
+/react@"^11.0.0-rc.0" from 
+@emotion/styled@11.14.1
+npm error     node_modules/
+@emotion/styled
+npm error       
+peerOptional 
+@emotion/styled@"^11.3.0" 
+from @mui/material@7.3.5
+npm error       
+node_modules/@mui/material
+npm error         peer 
+@mui/material@"^7.3.5" 
+from 
+@mui/icons-material@7.3.5
+npm error         node_modu
+les/@mui/icons-material
+npm error         1 more 
+(the root project)
+npm error       3 more 
+(@mui/styled-engine, 
+@mui/system, the root 
+project)
+npm error     peerOptional 
+@emotion/react@"^11.5.0" 
+from @mui/material@7.3.5
+npm error     
+node_modules/@mui/material
+npm error       peer 
+@mui/material@"^7.3.5" 
+from 
+@mui/icons-material@7.3.5
+npm error       node_module
+s/@mui/icons-material
+npm error         @mui/icon
+s-material@"7.3.5" from 
+the root project
+npm error       1 more 
+(the root project)
+npm error     3 more 
+(@mui/styled-engine, 
+@mui/system, the root 
+project)
+npm error   83 more 
+(@emotion/styled, ...)
+npm error
+npm error Could not 
+resolve dependency:
+npm error peer 
+react@"^19.0.0" from 
+react-leaflet@5.0.0
+npm error 
+node_modules/react-leaflet
+npm error   
+react-leaflet@"^5.0.0" 
+from the root project
+npm error
+npm error Conflicting peer 
+dependency: react@19.2.4
+npm error 
+node_modules/react
+npm error   peer 
+react@"^19.0.0" from 
+react-leaflet@5.0.0
+npm error   
+node_modules/react-leaflet
+npm error     
+react-leaflet@"^5.0.0" 
+from the root project
+npm error
+npm error Fix the upstream 
+dependency conflict, or 
+retry
+npm error this command 
+with --force or 
+--legacy-peer-deps
+npm error to accept an 
+incorrect (and potentially 
+broken) dependency 
+resolution.
+npm error
+npm error
+npm error For a full 
+report see:
+npm error C:\Users\jayan\Ap
+pData\Local\npm-cache\_logs
+\2026-03-12T12_05_19_709Z-e
+resolve-report.txt
+npm error A complete log 
+of this run can be found 
+in: C:\Users\jayan\AppData\
+Local\npm-cache\_logs\2026-
+03-12T12_05_19_709Z-debug-0
+.log
